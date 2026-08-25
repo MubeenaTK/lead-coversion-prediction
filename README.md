@@ -52,6 +52,33 @@ The models were evaluated using:
 - F1-score
 - Confusion Matrix
 
+## 📊 Model Performance
+
+### Logistic Regression
+
+- Accuracy: 84.58%
+- Precision: 13.51%
+- Recall: 73.96%
+- F1 Score: 22.85%
+- ROC-AUC: 84.96%
+
+### Random Forest
+
+- Accuracy: 96.44%
+- Precision: 42.17%
+- Recall: 41.42%
+- F1 Score: 41.79%
+- ROC-AUC: 77.39%
+
+### Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 84.58% | 13.51% | **73.96%** | 22.85% | **84.96%** |
+| Random Forest | **96.44%** | **42.17%** | 41.42% | **41.79%** | 77.39% |
+
+Random Forest achieved the highest overall accuracy and F1 score, while Logistic Regression achieved higher recall and ROC-AUC. The choice of model depends on the business objective, particularly whether identifying more potential converting leads or maximizing overall classification performance is the priority.
+
 ## 💡 Business Value
 
 The prediction model can help businesses:
