@@ -64,7 +64,7 @@ The prediction model can help businesses:
 
 ## 📁 Project Files
 
-- `lead-conversion-prediction.ipynb` — Complete analysis and machine learning workflow
+- [Lead Conversion Prediction Notebook](./lead-conversion-prediction.ipynb) — Complete analysis and machine learning workflow
 
 ## 👩‍💻 Author
 
